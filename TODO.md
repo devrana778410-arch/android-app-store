@@ -15,9 +15,9 @@
 - [x] Create runtime.txt in root: `python-3.8.10`
 
 ## 5. Deploy to Render.com (free alternative)
-- [ ] Sign up for Render.com account (free, no payment required)
-- [ ] Create GitHub repository for the project
-- [ ] Push code to GitHub
-- [ ] Create new Web Service on Render.com
-- [ ] Connect GitHub repo and deploy
-- [ ] Provide live link (without testing chatbot)
+- [x] Sign up for Render.com account (free, no payment required)
+- [x] Create GitHub repository for the project
+- [x] Push code to GitHub
+- [x] Create new Web Service on Render.com
+- [x] Connect GitHub repo and deploy
+- [x] Provide live link (without testing chatbot)
