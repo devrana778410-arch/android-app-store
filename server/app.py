@@ -14,11 +14,11 @@ app = Flask(__name__,
 CORS(app)
 
 # File-based data storage
-DATA_DIR = 'data'
+DATA_DIR = os.path.join(os.path.dirname(__file__), 'data')
 USERS_FILE = os.path.join(DATA_DIR, 'users.json')
 APPS_FILE = os.path.join(DATA_DIR, 'apps.json')
 CATEGORIES_FILE = os.path.join(DATA_DIR, 'categories.json')
-UPLOAD_FOLDER = 'uploads/apks'
+UPLOAD_FOLDER = os.path.join(os.path.dirname(__file__), 'uploads/apks')
 MAX_FILE_SIZE = 100 * 1024 * 1024  # 100MB limit
 
 # Ensure directories exist
