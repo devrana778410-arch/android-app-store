@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "name": "Games",
+    "description": "Fun and entertaining games"
+  },
+  {
+    "id": "2",
+    "name": "Productivity",
+    "description": "Tools to boost your productivity"
+  },
+  {
+    "id": "3",
+    "name": "Social",
+    "description": "Connect with friends and family"
+  },
+  {
+    "id": "4",
+    "name": "Education",
+    "description": "Learn new skills and knowledge"
+  }
+]
